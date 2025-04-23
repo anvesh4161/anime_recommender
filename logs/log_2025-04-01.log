@@ -1,0 +1,13 @@
+2025-04-01 08:45:29,925 - INFO - Data Processing Initialized
+2025-04-01 08:45:30,835 - INFO - Data Loaded sucessfully for data processing
+2025-04-01 08:45:31,004 - INFO - Filtered users successfully
+2025-04-01 08:45:31,978 - INFO - Scaling done for processing
+2025-04-01 08:45:32,093 - INFO - Encoding done for users and animes
+2025-04-01 08:45:32,510 - INFO - Data splitted successfully
+2025-04-01 08:45:32,533 - INFO - user2user_encoded saved successfully in processed directory
+2025-04-01 08:45:32,542 - INFO - user2user_decoded saved successfully in processed directory
+2025-04-01 08:45:32,573 - INFO - anime2anime_encoded saved successfully in processed directory
+2025-04-01 08:45:32,621 - INFO - anime2anime_decoded saved successfully in processed directory
+2025-04-01 08:45:36,167 - INFO - All the training, testing data and rating_df is saved now ...
+2025-04-01 08:45:40,374 - INFO - DF and SYNOPSIS_DF saved successfully...
+2025-04-01 08:45:40,374 - INFO - Data Processing piepine ran sucessfully.....CONGRATULATIONS!!!
