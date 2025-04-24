@@ -1,0 +1,104 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Raleway:wght@400;700&display=swap');
+
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  background: url('https://wallpaperaccess.com/full/1519682.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+/* Overlay with blur for focus */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  z-index: -1;
+}
+
+/* Container */
+.form-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 20px rgba(245, 169, 184, 0.5);
+  max-width: 500px;
+  margin: 5% auto;
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  text-align: center;
+  backdrop-filter: blur(12px);
+}
+
+/* Header */
+.form-container h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.8rem;
+  color: #f5a9b8;
+  margin-bottom: 2rem;
+}
+
+/* Form styling */
+label {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+button {
+  background: linear-gradient(135deg, #f093fb, #f5576c);
+  color: white;
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #f5576c, #f093fb);
+}
+
+/* Results styling */
+.results-container {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  border: 1px solid #f5a9b8;
+}
+
+.results-container h2 {
+  color: #ffe0e9;
+  margin-bottom: 1rem;
+  font-family: 'Orbitron', sans-serif;
+}
+
+ul {
+  list-style-type: "🍥 ";
+  padding-left: 1.5rem;
+  text-align: left;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #fffafc;
+}

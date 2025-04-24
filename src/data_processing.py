@@ -137,8 +137,8 @@ class DataProcessor:
 
                 except:
                     print("Error")
-
                 return name
+            
             df['anime_id'] = df['MAL_ID']
             df['eng_version'] = df['English name']
             df['eng_version'] = df.anime_id.apply(lambda x: getAnimeName(x))
