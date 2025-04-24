@@ -1,4 +1,3 @@
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -17,7 +16,7 @@ spec:
       - name: ml-app-container
         image: gcr.io/plasma-datum-454301-t9/anime_recommender:latest
         ports:
-        - containerPort: 5000  # Replace with the port your app listens on
+        - containerPort: 5000
 ---
 apiVersion: v1
 kind: Service
